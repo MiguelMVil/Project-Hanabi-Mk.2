@@ -1,0 +1,10 @@
+Conventions:
+For Files: thisIsAFile
+For CSS classes: this-is-a-class
+For CSS IDs: this-is-an-id
+For Javascript Variables: this_is_a_variable
+For Javascript Functions: this_Is_A_Function
+
+Placeholders:
+For Links: https://www.youtube.com/watch?v=32oT-CWJOC0&vl=en
+For Images: media/images/placeholder.png
