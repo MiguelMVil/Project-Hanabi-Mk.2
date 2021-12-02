@@ -17,3 +17,13 @@ const observer = new IntersectionObserver(function(entries) {
 }, { threshold: [1] });
 
 observer.observe(nav);
+var slider1 = document.getElementById("slider-1");
+var scrolldist = window.innerWidth * 0.29;
+
+function scroll_To_Prev() {
+	slider1.scrollLeft -= scrolldist;
+}
+
+function scroll_To_Next() {
+	slider1.scrollLeft += scrolldist;
+}
