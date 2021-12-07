@@ -8,6 +8,9 @@
 
 	/* nav colors */
 	--nav-background: blue;
+
+	scrollbar-width: thin;
+	scrollbar-color: limegreen grey;
 }
 
 body {
@@ -16,6 +19,20 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
+
+/* browser scrollbar styling */
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	background: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: limegreen;
+}
+
 
 header {
 	display: flex;
@@ -65,6 +82,7 @@ nav {
 }
 
 #small-header img {
+
   opacity: 0;
 	height: 80%;
 
